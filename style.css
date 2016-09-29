@@ -31,6 +31,9 @@
   cursor: pointer;
   position: absolute;
   top: 225px;
+  background-color: #C0C0C0;
+  border-radius: 25px;
+  display: none;
 }
 
 #prev {
@@ -42,6 +45,6 @@
 }
 
 .btn:hover{
-  background-color:white;
+  background-color: transparent;
   border-radius: 25px;
 }

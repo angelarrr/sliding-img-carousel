@@ -46,13 +46,15 @@ $(document).ready(function(){
 			index = 0;
 		}
 		next();
-  }, 4000);
+  }, 3000);
 
   // pause auto slide on hover
-  $('#carousel').hover(function(){
+  $("#carousel").hover(function(){
+    $(".btn").show();
     clearInterval(autoSlide);
   }, function(){
-    autoSlide = setInterval(next, 4000);
+    $(".btn").hide();
+    autoSlide = setInterval(next, 3000);
   });
 
 });

@@ -1,0 +1,47 @@
+.container {
+  width: 800px;
+  height: 500px;
+  border: none;
+  margin: 0 auto;
+  padding-top: 20px;
+}
+
+#carousel {
+  width: 800px;
+  height: 500px;
+  margin: 0 auto;
+  border: solid 1px black;
+  padding: 0;
+  overflow: hidden;
+  position: relative;
+  float: left;
+}
+
+#carousel slide {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 800px;
+  height: 500px;
+}
+
+/* buttons */
+.btn {
+  width: 50px;
+  cursor: pointer;
+  position: absolute;
+  top: 225px;
+}
+
+#prev {
+  left: 10px;
+}
+
+#next {
+  right: 10px;
+}
+
+.btn:hover{
+  background-color:white;
+  border-radius: 25px;
+}
